@@ -54,7 +54,7 @@ export default function GetPopUp({ openPopUp, setOpenPopUp }) {
               setUserPopUp(true);
             }}
           >
-            Authority
+            Passengers
           </Button>
           <Typography style={{ fontSize: 14.5 }}>OR</Typography>
           <Button
@@ -72,7 +72,7 @@ export default function GetPopUp({ openPopUp, setOpenPopUp }) {
               setAuthorityPopUp(true);
             }}
           >
-            Passengers
+            Authority
           </Button>
         </Paper>
       </Modal>

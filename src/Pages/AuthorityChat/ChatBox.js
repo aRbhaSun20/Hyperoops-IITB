@@ -25,7 +25,7 @@ export default function ChatBox() {
         </div>
         <div style={{ display: "grid", textAlign: "start" }}>
           <Typography style={{ fontSize: "1.2rem", fontWeight: "bold" }}>
-            Patient Name
+            Passenger Name
           </Typography>
           <Typography style={{ fontSize: ".85rem" }}>Latest Message</Typography>
         </div>

@@ -17,10 +17,10 @@ export default function Router() {
           <Route path="authorityhistory" element={<AuthorityHistory />} />
           <Route path="authorityrequest" element={<AuthorityRequest />} />
           <Route path="authoritychat" element={<AuthorityChat />} />
-          <Route path="patientdashboard" element={<AuthorityDashboard />} />
-          <Route path="patienthistory" element={<AuthorityHistory />} />
-          <Route path="patientrequest" element={<AuthorityRequest />} />
-          <Route path="patientchat" element={<AuthorityChat />} />
+          <Route path="passengerdashboard" element={<AuthorityDashboard />} />
+          <Route path="passengerhistory" element={<AuthorityHistory />} />
+          <Route path="passengerrequest" element={<AuthorityRequest />} />
+          <Route path="passengerchat" element={<AuthorityChat />} />
           <Route path="pharmacyMap" element={<PharmacyMap />} />
         </Routes>
       </BrowserRouter>

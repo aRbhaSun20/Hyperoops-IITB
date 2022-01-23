@@ -1,6 +1,6 @@
 import React from "react";
 import Navbar from "../Components/Navbar/Navbar.jsx";
-import homeSvg from "../assets/home-png.png";
+import homeSvg from "../assets/high-speed-train.png";
 import { Button, Typography } from "@mui/material";
 import LoginPopUp from "../Components/Login/LoginPopUp.jsx";
 import { useDispatch } from "react-redux";
@@ -160,7 +160,7 @@ export default function Home() {
                   onClick={() =>
                     dispatch({
                       type: NAV_ACTIONS.NAV_CHANGE,
-                      payload: { loginPopUp: true, loginType: "patient" },
+                      payload: { loginPopUp: true, loginType: "passenger" },
                     })
                   }
                 >
@@ -214,7 +214,11 @@ export default function Home() {
               alignItems: "center",
             }}
           >
-            <img src={homeSvg} alt="home-svg" />
+            <img
+              src={homeSvg}
+              style={{ transform: "scaleX(-1)", width: "80%" }}
+              alt="home-svg"
+            />
           </div>
         </div>
       </div>

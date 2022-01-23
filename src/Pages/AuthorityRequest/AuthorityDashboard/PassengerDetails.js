@@ -69,7 +69,7 @@ const rows = [
   createData("demo2", "processing", "eye checkup", "9am-11am | 5/11/2021"),
   createData("demo3", "done", "heart checkup", "9am-11am | 5/11/2021"),
 ];
-export default function PatientDetails() {
+export default function PassengerDetails() {
   const classes = useStyles();
   return (
     <React.Fragment>
@@ -103,7 +103,7 @@ export default function PatientDetails() {
               }}
               style={{ background: "blue" }}
             >
-              <Tooltip title="add patient">
+              <Tooltip title="add passenger">
                 <AddBox style={{ fill: "white" }} />
               </Tooltip>
             </IconButton>
@@ -128,7 +128,7 @@ export default function PatientDetails() {
                 }}
               >
                 <TableCell style={{ fontSize: "1.2rem", fontWeight: "bold" }}>
-                  Patient
+                  Passenger
                 </TableCell>
                 <TableCell style={{ fontSize: "1.2rem", fontWeight: "bold" }}>
                   Status

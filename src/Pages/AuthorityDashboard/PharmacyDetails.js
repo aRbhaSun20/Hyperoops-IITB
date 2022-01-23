@@ -103,7 +103,7 @@ export default function PharmacyDetails() {
               }}
               style={{ background: "blue" }}
             >
-              <Tooltip title="add patient">
+              <Tooltip title="add passenger">
                 <AddBox style={{ fill: "white" }} />
               </Tooltip>
             </IconButton>
@@ -128,7 +128,7 @@ export default function PharmacyDetails() {
                 }}
               >
                 <TableCell style={{ fontSize: "1.2rem", fontWeight: "bold" }}>
-                  Patient
+                  Passenger
                 </TableCell>
                 <TableCell style={{ fontSize: "1.2rem", fontWeight: "bold" }}>
                   Status

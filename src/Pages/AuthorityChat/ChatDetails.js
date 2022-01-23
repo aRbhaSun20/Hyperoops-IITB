@@ -90,7 +90,7 @@ export default function ChatDetails() {
               >
                 H
               </Avatar>
-              <Typography>Patient Name</Typography>
+              <Typography>Passenger Name</Typography>
             </div>
             <div
               style={{

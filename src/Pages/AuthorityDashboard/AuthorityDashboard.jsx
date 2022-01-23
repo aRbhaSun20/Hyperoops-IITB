@@ -1,7 +1,7 @@
 import * as React from "react";
 import NavbarAfter from "../../Components/Navbar/NavbarAfter";
 import LeftBar from "./LeftBar";
-import PatientDetails from "./PatientDetails";
+import PassengerDetails from "./PassengerDetails";
 import PharmacyDetails from "./PharmacyDetails";
 
 export default function AuthorityDashboard() {
@@ -19,7 +19,7 @@ export default function AuthorityDashboard() {
           }}
         >
           <NavbarAfter />
-          <PatientDetails />
+          <PassengerDetails />
           <br />
           <PharmacyDetails />
         </div>

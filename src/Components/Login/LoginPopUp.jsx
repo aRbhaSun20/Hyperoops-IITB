@@ -54,8 +54,8 @@ export default function LoginPopUp() {
             }}
           >
             <img src={PeopleLogo} style={{ width: "7rem" }} alt="people-log" />
-            <Typography style={{ fontSize: 24, textTransform: "uppercase" }}>
-              welcome to rajas as {openPopUp.loginType}
+            <Typography style={{ fontSize: 24, textTransform: "uppercase",textAlign:"center" }}>
+              welcome to Hyperloop as {openPopUp.loginType}
             </Typography>
           </div>
           <div
@@ -99,8 +99,8 @@ export default function LoginPopUp() {
               onClick={() => {
                 history(
                   `${
-                    openPopUp.loginType === "patient"
-                      ? "patientdashboard"
+                    openPopUp.loginType === "passenger"
+                      ? "passengerdashboard"
                       : "authoritydashboard"
                   }`
                 );

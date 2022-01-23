@@ -95,8 +95,8 @@ export default function LeftBar() {
         </Badge>
       ),
       link:
-        currentNav.loginType === "patient"
-          ? "/patientdashboard"
+        currentNav.loginType === "passenger"
+          ? "/passengerdashboard"
           : "/authoritydashboard",
     },
     {
@@ -115,8 +115,8 @@ export default function LeftBar() {
         </Badge>
       ),
       link:
-        currentNav.loginType === "patient"
-          ? "/patientrequest"
+        currentNav.loginType === "passenger"
+          ? "/passengerrequest"
           : "/authorityrequest",
     },
     {
@@ -133,7 +133,7 @@ export default function LeftBar() {
           />
         </Badge>
       ),
-      link: currentNav.loginType === "patient" ? "/patientchat" : "/authoritychat",
+      link: currentNav.loginType === "passenger" ? "/passengerchat" : "/authoritychat",
     },
     {
       title: "History",
@@ -148,8 +148,8 @@ export default function LeftBar() {
         />
       ),
       link:
-        currentNav.loginType === "patient"
-          ? "/patienthistory"
+        currentNav.loginType === "passenger"
+          ? "/passengerhistory"
           : "/authorityhistory",
     },
     {

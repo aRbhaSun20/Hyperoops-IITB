@@ -1,7 +1,7 @@
 import * as React from "react";
 import NavbarAfter from "../../Components/Navbar/NavbarAfter";
 import LeftBar from "../AuthorityDashboard/LeftBar";
-import PatientDetails from "./PatientDetails";
+import PassengerDetails from "./PassengerDetails";
 
 export default function AuthorityHistory() {
   return (
@@ -18,9 +18,9 @@ export default function AuthorityHistory() {
           }}
         >
           <NavbarAfter />
-          <PatientDetails />
+          <PassengerDetails />
           <br />
-          <PatientDetails />
+          <PassengerDetails />
         </div>
       </div>
     </React.Fragment>

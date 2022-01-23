@@ -107,7 +107,7 @@ export default function RequestDetails() {
                 id="outlined-select-currency"
                 select
                 style={{ width: 220 }}
-                label="All Patient"
+                label="All Passenger"
                 // value={currency}
                 // onChange={handleChange}
               >
@@ -136,7 +136,7 @@ export default function RequestDetails() {
                 }}
                 style={{ background: "blue" }}
               >
-                <Tooltip title="add patient">
+                <Tooltip title="add passenger">
                   <AddBox style={{ fill: "white" }} />
                 </Tooltip>
               </IconButton>
@@ -162,7 +162,7 @@ export default function RequestDetails() {
                 }}
               >
                 <TableCell style={{ fontSize: "1.2rem", fontWeight: "bold" }}>
-                  Patient
+                  Passenger
                 </TableCell>
                 <TableCell style={{ fontSize: "1.2rem", fontWeight: "bold" }}>
                   Request Type

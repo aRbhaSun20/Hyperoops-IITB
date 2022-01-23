@@ -150,8 +150,8 @@ export default function UserPopUp({ openPopUp, setOpenPopUp }) {
             </div>
 
             <Typography style={{ fontSize: ".7rem", textAlign: "center" }}>
-              Please upload premedical conditions data, Body weight, Blood
-              group, chronic diseases details, B.P, diabetic conditions etc ..
+              Please upload the relevant document for emergency situations for the 
+              choice of transport in case of failure ..
               this data will be secure and only used to treat you effectively
             </Typography>
           </div>
